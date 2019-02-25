@@ -52,7 +52,7 @@ const (
 
 	// IP address limits.
 	bucketIPLimit, bucketSubnet = 5, 24 // at most 5 addresses from the same /24
-	tableIPLimit, tableSubnet   = 10, 24
+	tableIPLimit, tableSubnet   = 20, 24
 
 	maxBondingPingPongs = 16 // Limit on the number of concurrent ping/pong interactions
 	maxFindnodeFailures = 5  // Nodes exceeding this limit are dropped
